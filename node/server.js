@@ -16,7 +16,8 @@ var protoDescriptor = grpc.loadPackageDefinition(packageDefinition);
 
 let getServerResponse = function (call, callback) {
     let request = call.request;
-        callback(null, {
+    console.log("Got a request" + request.message)
+    callback(null, {
             message: request.message,
             received: true
         })
