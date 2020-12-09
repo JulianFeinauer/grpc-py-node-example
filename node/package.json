@@ -1,0 +1,23 @@
+{
+  "name": "eventsourcingexample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulianFeinauer/EventSourcingExample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JulianFeinauer/EventSourcingExample/issues"
+  },
+  "homepage": "https://github.com/JulianFeinauer/EventSourcingExample#readme",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.5.5",
+    "grpc": "^1.24.4"
+  }
+}

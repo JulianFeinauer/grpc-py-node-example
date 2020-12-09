@@ -1,0 +1,7 @@
+include
+bin
+lib
+pyvenv.cfg
+/generated/
+!/generated/__init__.py
+/node/node_modules/
